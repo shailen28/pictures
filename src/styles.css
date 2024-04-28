@@ -1,0 +1,41 @@
+body {
+  height: 600px;
+  width: 500px;
+  background: linear-gradient(#9198e5, #e66465, #73e6ff);
+}
+
+.sun {
+  clip-path: circle(50px at 50px);
+  background: linear-gradient(#ca14a091, #ffff00);
+  height: 140px;
+  margin-left: 400px;
+}
+
+.birds {
+  display: flex;
+  gap: 40px;
+  height: 150px;
+}
+
+.bird1 {
+  clip-path: polygon(50% 0%, 100% 10%, 50% 10%, 0 50%);
+  background: white;
+  width: 50px;
+  height: 50px;
+}
+
+.bird2 {
+  /* clip-path: polygon(0% 20%, 50% 100%, 100% 0%, 50% 80%); */
+  clip-path: polygon(0% 20%, 50% 50%, 100% 0%, 50% 40%);
+  background: white;
+  width: 50px;
+  height: 50px;
+  margin: auto 0;
+}
+
+.bird3 {
+  clip-path: polygon(50% 0%, 100% 10%, 50% 10%, 0 50%);
+  background: white;
+  width: 50px;
+  height: 50px;
+}
